@@ -39,6 +39,7 @@ button:hover{
     background-color: rgb(88, 18, 114);
 }
 
+
 .container{
     max-width: 1400px;
     margin: auto;
@@ -92,7 +93,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("media/gym-3.jpg");
+    ,url("../assets/img/img/gym-3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -106,6 +107,26 @@ header a:hover{
 #somos-gym .container{
     text-align: center;
     padding: 200px 12px;
+}
+
+#contacto{
+    text-align: left;
+    padding: 200px 12px; 
+}
+
+#contacto .container{
+    display: flex;
+    text-align: left;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedor a{
+    font-size: 40px;
 }
 
 #servicios{
@@ -141,7 +162,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("media/gym-2.jpg");
+    ,url("../assets/img/img/gym-2.jpg");
 }
 
 .carta:nth-child(2){
@@ -150,7 +171,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("media/alimentaciongym.jpg");
+    ,url("../assets/img/img/alimentaciongym.jpg");
 }
 
 .carta:last-child{
@@ -159,7 +180,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) 
-    ,url("media/crossfit.jpg");
+    ,url("../assets/img/img/crossfit.jpg");
 }
 
 #inscribite1{
@@ -227,18 +248,16 @@ header nav{
 }
 
 #somos-gym .img-container{
-    background-image: url("media/gym-4.jpg");
+    background-image: url("../assets/img/img/gym-4.jpg");
     background-size: cover;
     background-position: center center;
     height: 500px;
     width: 400px;
 }
 
-
 #servicios .programas p{
     display: block;
 }
-
 
 .slide {
     margin-top: 80px;
